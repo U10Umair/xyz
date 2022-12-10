@@ -1,0 +1,41 @@
+/* .red{
+    color: red;
+} */
+
+body{
+    background-color:white
+}
+.box1{
+  height: 200px;
+  color: black
+ 
+
+}
+
+h1{
+  border: 2px solid  #6200ee;
+  border-radius: 70%;
+  padding: 30px;
+  
+}
+.hi{
+  color: #6200ee;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+ 
+
+
+  }
+
+  .box1{
+    height: 130px;
+  }
+ 
+}
